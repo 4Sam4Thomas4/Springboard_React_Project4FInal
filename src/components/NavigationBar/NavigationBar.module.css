@@ -1,0 +1,29 @@
+.navigationBar {
+  padding: 1rem;
+}
+
+.navigationBar__list {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigationBar__item {
+border: 2px dotted #ffffff;
+  padding: 0.5rem 1rem;
+
+  transition: background-color 0.3s ease;
+}
+
+.navigationBar__link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navigationBar__link--active {
+  color: #ffcc00;
+  text-decoration: underline;
+}

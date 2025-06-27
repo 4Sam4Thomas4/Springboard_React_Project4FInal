@@ -1,0 +1,79 @@
+
+.spacecraft__details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+  background-color: #11131a;
+  
+
+}
+.spacecraft__name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #edebb1;
+  margin: 20px;
+  text-align: center;
+  flex-grow: 1;
+  background-color: #bf0046;
+  padding: 10px;
+  border-radius: 1rem;
+  
+}
+.spacecraft__picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+
+  margin-right: 2rem;
+  border: 2px dotted #ffffff;
+  margin: 20px;
+ 
+  background: #181f2a
+}
+.capacity {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #edebb1;
+  margin: 20px;
+  text-align: center;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.spacecraft_D {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  padding: 1rem;
+  background: #181f2a;
+  border-radius: 1rem;
+  margin: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #edebb1;
+  margin: 1px;
+  text-align: center;
+  
+}
+
+.button__back {
+  background: #2d2f37;
+  color: #f8f8fa;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  transition: background 0.2s;
+}
+.button__back:hover {
+  background: #bf0046;
+}

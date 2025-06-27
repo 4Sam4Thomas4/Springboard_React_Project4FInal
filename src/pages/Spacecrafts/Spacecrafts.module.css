@@ -1,0 +1,69 @@
+.spacecraft
+{
+  display: flex;
+  margin-top: 2rem;
+  padding: 2rem;
+  border: 2px solid #ffffff;
+}
+
+.spacecraft__imageContainer
+{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 100px;
+  margin-right: 2rem;
+  cursor: pointer;
+  border: 2px dotted #ffffff;
+  
+}
+
+.spacecraft__imageContainer:hover
+{
+  border-color: #6cd265;
+}
+
+.spacecraft__image
+{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.spacecraft__image--default
+{
+  font-size: 2.4rem;
+}
+
+.spacecraft__infoContainer
+{
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.spacecraft__description
+{
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+  line-height: 1.5;
+  flex-grow: 1;
+
+ 
+}
+.spacecraft__info
+{
+font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+  line-height: 1.5;
+  flex-grow: 1;
+}
